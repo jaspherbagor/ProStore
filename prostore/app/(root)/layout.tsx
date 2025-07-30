@@ -1,5 +1,6 @@
 import Header from "@/components/shared/header";
 
+import Footer from "@/components/footer";
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -11,6 +12,7 @@ export default function RootLayout({
         <main className="flex-1 wrapper">
             {children}
         </main>
+        <Footer />
     </div>
   );
 }
