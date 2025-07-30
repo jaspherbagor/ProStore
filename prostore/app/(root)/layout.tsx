@@ -4,12 +4,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${inter.className} antialiased`}
-      >
-        {children}
-      </body>
-    </html>
+    <div className="flex h-screen flex-col">
+        ROOT
+        <main className="flex-1 wrapper">
+            {children}
+        </main>
+    </div>
   );
 }
