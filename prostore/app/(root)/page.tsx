@@ -1,8 +1,8 @@
-export const metadata = {
-  title: 'Home'
-};
+import sampleData from "@/db/sample-data";
+
 
 const Homepage = () => {
+  console.log(sampleData);
   return <>Prostore</> ;
 };
 
